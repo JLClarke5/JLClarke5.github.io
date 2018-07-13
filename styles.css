@@ -1,0 +1,111 @@
+* {
+margin: 0px;
+
+}
+
+
+.Container-1 {
+display: flex;
+background-image: url(Skyline.jpg);
+background-size: cover;
+width: 100%;
+height: auto;
+min-height: 400px;
+max-height: 500px;
+
+}
+
+
+.JacobClarke {
+margin: auto;
+background-color: whitesmoke;
+font-size: 30px;
+font-family: Lucida Sans Unicode;
+text-align: center;
+padding: 10px;
+}
+
+#Subhead {
+position: relative;
+bottom: 6px;
+
+}
+
+h3 {
+font-size: 20px;
+text-align: center;
+}
+
+.Headshot {
+position: absolute;
+}
+
+.Twitter {
+}
+
+.LinkedIn {
+position: absolute;
+left: 70px;
+}
+
+
+.Fox {
+position: absolute;
+top: 310px;
+left: 15%;
+}
+
+
+.Examiner {
+position: absolute;
+left: 35%;
+top: 310px;
+}
+
+.Post {
+position: absolute;
+left: 55%;
+top: 310px;
+}
+
+.Champion {
+position: absolute;
+left: 75%;
+top: 310px;
+}
+
+.Bio {
+column-count: 3;
+padding: 20px;
+background-color: white;
+font-family: Lucida Sans Unicode;
+font-size: 15px;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.gallery-item {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.gallery-item .thumbnail {
+  width: 240px;
+  border: 2px solid GhostWhite;
+  border-radius: 7px;
+}
+
+@media only screen and (min-width:0px) and (max-width: 640px) {
+    .Headshot, .Twitter, .LinkedIn {
+visibility: hidden;
+}
+
+}
